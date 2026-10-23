@@ -91,4 +91,9 @@
       <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Cloud</text>
     </g>
   </g>
+  <g transform="translate(1045, 198)">
+    <rect x="0" y="0" width="130" height="22" rx="4" fill="#091512" stroke="#34d399" stroke-width="0.8"/>
+    <circle cx="12" cy="11" r="3.5" fill="#34d399"/>
+    <text x="72" y="15" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#6ee7b7" text-anchor="middle" letter-spacing="1">OPEN /EN/LOG ↗</text>
+  </g>
 </svg>

@@ -1,10 +1,20 @@
 ﻿<div align="center">
-  <img src="./hero-banner.svg" alt="Valerii Karpov — VKV Studio" width="100%" />
+  <a href="https://vkvstudio.com/en/">
+    <img src="./hero-banner.svg" alt="VKV Studio — AI that runs without you" width="100%" />
+  </a>
+  <p align="center">
+    <a href="https://vkvstudio.com/en/"><b>HOME</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/services/"><b>SERVICES & PRICING</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/#lab"><b>ENTER THE LAB</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/#trust"><b>TRUST & EVIDENCE</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/log/"><b>ENGINEERING LOG</b></a> &nbsp;•&nbsp;
+    <a href="mailto:valerii@vkvstudio.com"><b>CONTACT</b></a>
+  </p>
 </div>
 
-<br/>
+---
 
-### 🛡️ Independent Verification & Agentic Readiness (`vkvstudio.com`)
+### 🛡️ Trust from the First Connection — Independent Verification (`vkvstudio.com`)
 
 <table>
   <tr>
@@ -43,7 +53,8 @@
       Three working LLM tools and a self-hosted, fine-tuned <b>Gemma 4</b> assistant: strict RAG grounding, QLoRA, <code>Q8_0</code> GGUF on a no-GPU ARM box. Astro 6 + Svelte 5, FastAPI, 342 automated tests.</p>
       <p>
         <a href="https://github.com/VKVstudio/VKV_Studio_com"><b>📂 GitHub Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://vkvstudio.com"><b>🌐 Live Site (vkvstudio.com) ↗</b></a>
+        <a href="https://vkvstudio.com/en/"><b>🌐 Live Site ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://vkvstudio.com/en/services/"><b>⚡ Services ↗</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -77,8 +88,13 @@
 
 ---
 
-### 🧱 Production Stack
+### 🧱 Production Stack & Engineering Log
 
 <div align="center">
-  <img src="./stack-grid.svg" alt="Production Stack: Python, TypeScript, Astro, Svelte, FastAPI, Gemma 4, HuggingFace, ONNX, Three.js, GSAP, GCP" width="100%" />
+  <a href="https://vkvstudio.com/en/log/">
+    <img src="./stack-grid.svg" alt="VKV Studio Production Stack — Click to open Engineering Log" width="100%" />
+  </a>
+  <p align="center">
+    <sub>Click the stack matrix to open the <a href="https://vkvstudio.com/en/log/"><b>Engineering Log (/en/log/) ↗</b></a> or explore <a href="https://vkvstudio.com/en/services/"><b>Services & Pricing (/en/services/) ↗</b></a></sub>
+  </p>
 </div>
