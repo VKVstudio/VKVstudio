@@ -1,40 +1,41 @@
 ﻿<div align="center">
-  <a href="https://vkvstudio.com/en/">
+  <a href="https://vkvstudio.com/en/" target="_blank" rel="noopener noreferrer">
     <img src="./hero-banner.svg" alt="VKV Studio — AI that runs without you" width="100%" />
   </a>
   <p align="center">
-    <a href="https://vkvstudio.com/en/"><b>HOME</b></a> &nbsp;•&nbsp;
-    <a href="https://vkvstudio.com/en/services/"><b>SERVICES & PRICING</b></a> &nbsp;•&nbsp;
-    <a href="https://vkvstudio.com/en/#lab"><b>ENTER THE LAB</b></a> &nbsp;•&nbsp;
-    <a href="https://vkvstudio.com/en/#trust"><b>TRUST & EVIDENCE</b></a> &nbsp;•&nbsp;
-    <a href="https://vkvstudio.com/en/log/"><b>ENGINEERING LOG</b></a> &nbsp;•&nbsp;
-    <a href="mailto:valerii@vkvstudio.com"><b>CONTACT</b></a>
+    <a href="https://vkvstudio.com/en/" target="_blank" rel="noopener noreferrer"><b>HOME</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/services/" target="_blank" rel="noopener noreferrer"><b>SERVICES & PRICING</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/lab/" target="_blank" rel="noopener noreferrer"><b>THE LAB</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/trust/" target="_blank" rel="noopener noreferrer"><b>TRUST & PROCESS</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/log/" target="_blank" rel="noopener noreferrer"><b>ENGINEERING LOG</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.com/en/contact/" target="_blank" rel="noopener noreferrer"><b>CONTACT</b></a> &nbsp;•&nbsp;
+    <a href="https://vkvstudio.pro/" target="_blank" rel="noopener noreferrer"><b>VKVSTUDIO.PRO ↗</b></a>
   </p>
 </div>
 
 ---
 
-### 🛡️ Trust from the First Connection — Independent Verification (`vkvstudio.com`)
+### 🛡️ Independent Verification (`vkvstudio.com`)
 
 <table>
   <tr>
     <td width="25%" align="center">
-      <a href="https://www.ssllabs.com/ssltest/analyze.html?d=vkvstudio.com&hideResults=on&latest">
+      <a href="https://www.ssllabs.com/ssltest/analyze.html?d=vkvstudio.com&hideResults=on&latest" target="_blank" rel="noopener noreferrer">
         <img src="./audit-tls.svg" alt="Qualys SSL Labs A+" width="100%" />
       </a>
     </td>
     <td width="25%" align="center">
-      <a href="https://securityheaders.com/?q=https%3A%2F%2Fvkvstudio.com%2Fen%2F&hide=on&followRedirects=on">
+      <a href="https://securityheaders.com/?q=https%3A%2F%2Fvkvstudio.com%2Fen%2F&hide=on&followRedirects=on" target="_blank" rel="noopener noreferrer">
         <img src="./audit-headers.svg" alt="SecurityHeaders A+" width="100%" />
       </a>
     </td>
     <td width="25%" align="center">
-      <a href="https://developer.mozilla.org/en-US/observatory/analyze?host=vkvstudio.com%2Fen%2F#scoring">
+      <a href="https://developer.mozilla.org/en-US/observatory/analyze?host=vkvstudio.com%2Fen%2F#scoring" target="_blank" rel="noopener noreferrer">
         <img src="./audit-mozilla.svg" alt="Mozilla Observatory A+" width="100%" />
       </a>
     </td>
     <td width="25%" align="center">
-      <a href="https://pagespeed.web.dev/analysis/https-vkvstudio-com-en/lgvn1qn9a2?form_factor=desktop&hl=en">
+      <a href="https://pagespeed.web.dev/analysis/https-vkvstudio-com-en/lgvn1qn9a2?form_factor=desktop&hl=en" target="_blank" rel="noopener noreferrer">
         <img src="./audit-pagespeed.svg" alt="PageSpeed 6/6 Agentic & 100 Desktop" width="100%" />
       </a>
     </td>
@@ -53,8 +54,7 @@
       Three working LLM tools and a self-hosted, fine-tuned <b>Gemma 4</b> assistant: strict RAG grounding, QLoRA, <code>Q8_0</code> GGUF on a no-GPU ARM box. Astro 6 + Svelte 5, FastAPI, 342 automated tests.</p>
       <p>
         <a href="https://github.com/VKVstudio/VKV_Studio_com"><b>📂 GitHub Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://vkvstudio.com/en/"><b>🌐 Live Site ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://vkvstudio.com/en/services/"><b>⚡ Services ↗</b></a>
+        <a href="https://vkvstudio.com/en/" target="_blank" rel="noopener noreferrer"><b>🌐 vkvstudio.com ↗</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -62,7 +62,8 @@
       <p><b>Action-Driven AI & Engineering Editorial Platform</b><br/>
       Every industry update ends in a concrete action: a real benchmark test, an architectural decision, or a documented rejection. Unified sticky Reading Rail navigation across 11 industry sources.</p>
       <p>
-        <a href="https://github.com/VKVstudio/VKV_Studio_pro"><b>📂 GitHub Repository ↗</b></a>
+        <a href="https://github.com/VKVstudio/VKV_Studio_pro"><b>📂 GitHub Repository ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://vkvstudio.pro/" target="_blank" rel="noopener noreferrer"><b>🌐 vkvstudio.pro ↗</b></a>
       </p>
     </td>
   </tr>
@@ -88,13 +89,10 @@
 
 ---
 
-### 🧱 Production Stack & Engineering Log
+### 🧱 Production Stack
 
 <div align="center">
-  <a href="https://vkvstudio.com/en/log/">
-    <img src="./stack-grid.svg" alt="VKV Studio Production Stack — Click to open Engineering Log" width="100%" />
+  <a href="https://vkvstudio.com/en/log/" target="_blank" rel="noopener noreferrer">
+    <img src="./stack-grid.svg" alt="VKV Studio Production Stack" width="100%" />
   </a>
-  <p align="center">
-    <sub>Click the stack matrix to open the <a href="https://vkvstudio.com/en/log/"><b>Engineering Log (/en/log/) ↗</b></a> or explore <a href="https://vkvstudio.com/en/services/"><b>Services & Pricing (/en/services/) ↗</b></a></sub>
-  </p>
 </div>

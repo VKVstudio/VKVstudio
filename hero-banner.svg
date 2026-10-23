@@ -1,7 +1,7 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%">
   <defs>
-    <radialGradient id="coreGlow" cx="50%" cy="52%" r="45%">
-      <stop offset="0%" stop-color="#34d399" stop-opacity="0.28"/>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.26"/>
       <stop offset="35%" stop-color="#0ea5e9" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#05080b" stop-opacity="0"/>
     </radialGradient>
@@ -21,102 +21,92 @@
       <stop offset="100%" stop-color="#6ee7b7"/>
     </linearGradient>
     <linearGradient id="vkvStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34d399" stop-opacity="0.32"/>
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0.32"/>
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.48"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
 
-  <!-- Глубокий темный фон и центральное свечение -->
-  <rect width="1200" height="340" rx="14" fill="url(#bg)" stroke="#162329" stroke-width="1.5"/>
-  <rect width="1200" height="340" rx="14" fill="url(#coreGlow)"/>
+  <rect width="1200" height="280" rx="14" fill="url(#bg)" stroke="#162329" stroke-width="1.5"/>
+  <rect width="1200" height="280" rx="14" fill="url(#coreGlow)"/>
 
-  <!-- Фоновое созвездие / Plexus-паутина (левое и правое крыло) -->
+  <!-- Фоновое созвездие / Plexus-паутина -->
   <g stroke="#1e3a44" stroke-width="0.8" opacity="0.65">
-    <line x1="40" y1="30" x2="150" y2="85"/><line x1="150" y1="85" x2="95" y2="195"/>
-    <line x1="150" y1="85" x2="275" y2="55"/><line x1="275" y1="55" x2="230" y2="165"/>
-    <line x1="95" y1="195" x2="230" y2="165"/><line x1="95" y1="195" x2="160" y2="295"/>
-    <line x1="230" y1="165" x2="320" y2="245"/><line x1="160" y1="295" x2="320" y2="245"/>
-    <line x1="275" y1="55" x2="390" y2="110"/><line x1="230" y1="165" x2="390" y2="110"/>
+    <line x1="40" y1="25" x2="150" y2="75"/><line x1="150" y1="75" x2="95" y2="175"/>
+    <line x1="150" y1="75" x2="275" y2="45"/><line x1="275" y1="45" x2="230" y2="150"/>
+    <line x1="95" y1="175" x2="230" y2="150"/><line x1="95" y1="175" x2="160" y2="250"/>
+    <line x1="230" y1="150" x2="320" y2="225"/><line x1="160" y1="250" x2="320" y2="225"/>
+    <line x1="275" y1="45" x2="390" y2="95"/><line x1="230" y1="150" x2="390" y2="95"/>
 
-    <line x1="1160" y1="35" x2="1050" y2="90"/><line x1="1050" y1="90" x2="1110" y2="200"/>
-    <line x1="1050" y1="90" x2="925" y2="55"/><line x1="925" y1="55" x2="970" y2="165"/>
-    <line x1="1110" y1="200" x2="970" y2="165"/><line x1="1110" y1="200" x2="1040" y2="295"/>
-    <line x1="970" y1="165" x2="880" y2="245"/><line x1="1040" y1="295" x2="880" y2="245"/>
-    <line x1="925" y1="55" x2="810" y2="110"/><line x1="970" y1="165" x2="810" y2="110"/>
+    <line x1="1160" y1="25" x2="1050" y2="75"/><line x1="1050" y1="75" x2="1110" y2="175"/>
+    <line x1="1050" y1="75" x2="925" y2="45"/><line x1="925" y1="45" x2="970" y2="150"/>
+    <line x1="1110" y1="175" x2="970" y2="150"/><line x1="1110" y1="175" x2="1040" y2="250"/>
+    <line x1="970" y1="150" x2="880" y2="225"/><line x1="1040" y1="250" x2="880" y2="225"/>
+    <line x1="925" y1="45" x2="810" y2="95"/><line x1="970" y1="150" x2="810" y2="95"/>
   </g>
 
-  <!-- Геометрический каркас монограммы VKV (полигональная сетка на фоне) -->
+  <!-- Геометрический каркас монограммы VKV (полностью открытый снизу) -->
   <g stroke="url(#vkvStroke)" fill="none">
-    <!-- Верхние планки -->
-    <rect x="490" y="34" width="220" height="10" stroke-width="1.2"/>
-    <rect x="210" y="54" width="780" height="10" stroke-width="1.3"/>
-    <!-- Левая V -->
-    <polygon points="240,82 355,235 470,82 448,82 355,206 262,82" stroke-width="1.3"/>
-    <!-- Центральная дельта / А -->
-    <rect x="490" y="82" width="220" height="10" stroke-width="1.2"/>
-    <polygon points="600,98 485,238 510,238 600,126 690,238 715,238" stroke-width="1.3"/>
-    <!-- Правая V -->
-    <polygon points="730,82 845,235 960,82 938,82 845,206 752,82" stroke-width="1.3"/>
-    <!-- Нижние планки -->
-    <rect x="380" y="256" width="440" height="8" stroke-width="1.1"/>
-    <rect x="415" y="274" width="370" height="8" stroke-width="1.1"/>
+    <rect x="490" y="26" width="220" height="9" stroke-width="1.2"/>
+    <rect x="210" y="44" width="780" height="9" stroke-width="1.3"/>
+    <polygon points="240,68 355,205 470,68 448,68 355,178 262,68" stroke-width="1.3"/>
+    <rect x="490" y="68" width="220" height="9" stroke-width="1.2"/>
+    <polygon points="600,82 485,208 510,208 600,108 690,208 715,208" stroke-width="1.3"/>
+    <polygon points="730,68 845,205 960,68 938,68 845,178 752,68" stroke-width="1.3"/>
+    <rect x="380" y="224" width="440" height="8" stroke-width="1.2"/>
+    <rect x="415" y="240" width="370" height="8" stroke-width="1.2"/>
   </g>
 
-  <!-- Мини HUD-виджеты телеметрии как на втором скрине -->
+  <!-- Мини HUD-виджеты по бокам -->
   <g opacity="0.45">
-    <rect x="135" y="110" width="72" height="36" rx="3" fill="#091318" stroke="#2dd4bf" stroke-width="0.7"/>
-    <line x1="143" y1="120" x2="175" y2="120" stroke="#34d399" stroke-width="1.5"/>
-    <line x1="143" y1="128" x2="195" y2="128" stroke="#38bdf8" stroke-width="1"/>
-    <line x1="143" y1="136" x2="165" y2="136" stroke="#64748b" stroke-width="1"/>
+    <rect x="135" y="95" width="72" height="36" rx="3" fill="#091318" stroke="#2dd4bf" stroke-width="0.7"/>
+    <line x1="143" y1="105" x2="175" y2="105" stroke="#34d399" stroke-width="1.5"/>
+    <line x1="143" y1="113" x2="195" y2="113" stroke="#38bdf8" stroke-width="1"/>
+    <line x1="143" y1="121" x2="165" y2="121" stroke="#64748b" stroke-width="1"/>
 
-    <rect x="990" y="105" width="76" height="38" rx="3" fill="#091318" stroke="#38bdf8" stroke-width="0.7"/>
-    <polyline points="998,133 1010,122 1022,129 1036,115 1054,125" fill="none" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="990" y="90" width="76" height="38" rx="3" fill="#091318" stroke="#38bdf8" stroke-width="0.7"/>
+    <polyline points="998,118 1010,107 1022,114 1036,100 1054,110" fill="none" stroke="#34d399" stroke-width="1.5"/>
 
-    <rect x="215" y="220" width="68" height="32" rx="3" fill="#091318" stroke="#2dd4bf" stroke-width="0.7"/>
-    <line x1="223" y1="230" x2="265" y2="230" stroke="#6ee7b7" stroke-width="1.2"/>
-    <line x1="223" y1="240" x2="250" y2="240" stroke="#475569" stroke-width="1"/>
+    <rect x="215" y="195" width="68" height="32" rx="3" fill="#091318" stroke="#2dd4bf" stroke-width="0.7"/>
+    <line x1="223" y1="205" x2="265" y2="205" stroke="#6ee7b7" stroke-width="1.2"/>
+    <line x1="223" y1="215" x2="250" y2="215" stroke="#475569" stroke-width="1"/>
 
-    <rect x="920" y="218" width="74" height="34" rx="3" fill="#091318" stroke="#38bdf8" stroke-width="0.7"/>
-    <circle cx="935" cy="235" r="6" fill="none" stroke="#34d399" stroke-width="1.2"/>
-    <polyline points="948,238 958,230 968,236 982,226" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+    <rect x="920" y="193" width="74" height="34" rx="3" fill="#091318" stroke="#38bdf8" stroke-width="0.7"/>
+    <circle cx="935" cy="210" r="6" fill="none" stroke="#34d399" stroke-width="1.2"/>
+    <polyline points="948,213 958,205 968,211 982,201" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
   </g>
 
-  <!-- Светящиеся узлы созвездия -->
+  <!-- Узлы созвездия -->
   <g fill="#6ee7b7">
-    <circle cx="150" cy="85" r="2.5"/><circle cx="275" cy="55" r="2"/><circle cx="230" cy="165" r="2.5"/>
-    <circle cx="95" cy="195" r="2"/><circle cx="320" cy="245" r="2"/><circle cx="1050" cy="90" r="2.5"/>
-    <circle cx="925" cy="55" r="2"/><circle cx="970" cy="165" r="2.5"/><circle cx="1110" cy="200" r="2"/>
-    <circle cx="880" cy="245" r="2"/><circle cx="600" cy="54" r="3" fill="#38bdf8"/>
+    <circle cx="150" cy="75" r="2.5"/><circle cx="275" cy="45" r="2"/><circle cx="230" cy="150" r="2.5"/>
+    <circle cx="95" cy="175" r="2"/><circle cx="320" cy="225" r="2"/><circle cx="1050" cy="75" r="2.5"/>
+    <circle cx="925" cy="45" r="2"/><circle cx="970" cy="150" r="2.5"/><circle cx="1110" cy="175" r="2"/>
+    <circle cx="880" cy="225" r="2"/><circle cx="600" cy="44" r="3" fill="#38bdf8"/>
   </g>
 
-  <!-- Центральная звезда-импульс под заголовком -->
-  <circle cx="600" cy="172" r="22" fill="url(#centerStar)"/>
+  <!-- Центральная звезда под заголовком -->
+  <circle cx="600" cy="156" r="20" fill="url(#centerStar)"/>
 
   <!-- ВЕРХНЯЯ ПИЛЮЛЯ: VKVSTUDIO -->
-  <rect x="538" y="26" width="124" height="26" rx="13" fill="#0b1317" stroke="#263840" stroke-width="1"/>
-  <text x="600" y="43" font-family="Segoe UI, Inter, sans-serif" font-size="10.5" font-weight="700" fill="#cbd5e1" letter-spacing="2.8" text-anchor="middle">VKVSTUDIO</text>
+  <rect x="538" y="18" width="124" height="24" rx="12" fill="#0b1317" stroke="#263840" stroke-width="1"/>
+  <text x="600" y="34" font-family="Segoe UI, Inter, sans-serif" font-size="10" font-weight="700" fill="#cbd5e1" letter-spacing="2.8" text-anchor="middle">VKVSTUDIO</text>
 
-  <!-- ГЛАВНЫЙ ЗАГОЛОВОК С САЙТА: AI that runs without you -->
-  <text x="600" y="106" font-family="Segoe UI, Inter, sans-serif" font-size="52" font-weight="800" fill="url(#titleGrad)" stroke="#38bdf8" stroke-width="0.6" text-anchor="middle" letter-spacing="0.5">AI that runs</text>
-  <text x="600" y="158" font-family="Segoe UI, Inter, sans-serif" font-size="52" font-weight="800" fill="url(#titleGrad)" stroke="#34d399" stroke-width="0.6" text-anchor="middle" letter-spacing="0.5">without you</text>
+  <!-- ЗАГОЛОВОК: AI that runs without you -->
+  <text x="600" y="96" font-family="Segoe UI, Inter, sans-serif" font-size="50" font-weight="800" fill="url(#titleGrad)" stroke="#38bdf8" stroke-width="0.6" text-anchor="middle" letter-spacing="0.5">AI that runs</text>
+  <text x="600" y="146" font-family="Segoe UI, Inter, sans-serif" font-size="50" font-weight="800" fill="url(#titleGrad)" stroke="#34d399" stroke-width="0.6" text-anchor="middle" letter-spacing="0.5">without you</text>
 
-  <!-- ПОДЗАГОЛОВОК С САЙТА -->
-  <text x="600" y="198" font-family="Segoe UI, Inter, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8" text-anchor="middle">
+  <!-- ПОДЗАГОЛОВОК -->
+  <text x="600" y="186" font-family="Segoe UI, Inter, sans-serif" font-size="14.5" font-weight="400" fill="#cbd5e1" text-anchor="middle">
     Self-hosted models, RAG assistants, and websites built to a Lighthouse clause.
   </text>
-  <text x="600" y="220" font-family="Segoe UI, Inter, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8" text-anchor="middle">
+  <text x="600" y="208" font-family="Segoe UI, Inter, sans-serif" font-size="14.5" font-weight="400" fill="#cbd5e1" text-anchor="middle">
     Fixed prices, from a registered studio on EU hours.
   </text>
 
-  <!-- ЗЕЛЕНАЯ КНОПКА CTA: SERVICES & PRICING -> -->
-  <rect x="495" y="242" width="210" height="40" rx="8" fill="#52b788"/>
-  <text x="600" y="267" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="800" fill="#04100b" letter-spacing="1.2" text-anchor="middle">SERVICES &amp; PRICING  →</text>
+  <!-- НИЖНЯЯ ПОДПИСЬ: NEW VISION (как на втором скрине логотипа) -->
+  <text x="600" y="266" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" fill="#64748b" letter-spacing="6" text-anchor="middle" opacity="0.75">NEW VISION</text>
 
-  <!-- НИЖНЯЯ ПОДПИСЬ: ENTER THE LAB & SYNAPSE -->
-  <text x="600" y="308" font-family="Consolas, monospace" font-size="10.5" font-weight="600" fill="#64748b" letter-spacing="2" text-anchor="middle">ENTER THE LAB  •  NEW VISION</text>
-
-  <g transform="translate(1115, 290)">
+  <g transform="translate(1115, 236)">
     <circle cx="28" cy="14" r="16" fill="#091512" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.6"/>
     <text x="28" y="18" font-family="Consolas, monospace" font-size="9" font-weight="700" fill="#6ee7b7" letter-spacing="1" text-anchor="middle">SYNAPSE</text>
   </g>
