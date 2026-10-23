@@ -1,0 +1,60 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071114"/>
+      <stop offset="50%" stop-color="#0d2226"/>
+      <stop offset="100%" stop-color="#050b0e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f3e5ab"/>
+      <stop offset="100%" stop-color="#aa8220"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a40" stroke-width="0.6" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="url(#bg)" stroke="#234e52" stroke-width="2"/>
+  <rect width="1200" height="260" rx="14" fill="url(#grid)"/>
+
+  <!-- Декоративное свечение и геометрия справа -->
+  <circle cx="1050" cy="130" r="190" fill="#14b8a6" fill-opacity="0.06"/>
+  <circle cx="1050" cy="130" r="120" fill="none" stroke="url(#gold)" stroke-width="1" stroke-opacity="0.3"/>
+  <polygon points="990,175 1050,65 1110,175" fill="none" stroke="url(#teal)" stroke-width="3" stroke-opacity="0.35"/>
+  <polygon points="940,75 995,180 1050,75" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-opacity="0.4"/>
+  <polygon points="1050,75 1105,180 1160,75" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-opacity="0.4"/>
+
+  <!-- Верхний статус-бейдж -->
+  <rect x="55" y="36" width="335" height="28" rx="14" fill="#0f292e" stroke="#2dd4bf" stroke-width="1"/>
+  <circle cx="73" cy="50" r="4.5" fill="#10b981"/>
+  <text x="88" y="55" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="700" fill="#5eead4" letter-spacing="1.5">APPLIED AI &amp; HIGH-PERFORMANCE WEB</text>
+
+  <!-- Заголовок -->
+  <text x="55" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="0.5">VALERII KARPOV</text>
+  <text x="455" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="46" font-weight="300" fill="url(#gold)">// VKV STUDIO</text>
+
+  <!-- Подзаголовок -->
+  <text x="55" y="158" font-family="Segoe UI, Ubuntu, sans-serif" font-size="19" font-weight="400" fill="#94a3b8">
+    Building autonomous LLM systems, RAG architectures, GGUF/QLoRA quantization &amp; zero-bloat web platforms
+  </text>
+
+  <!-- Нижние плашки фокуса -->
+  <g transform="translate(55, 188)" font-family="Consolas, monospace" font-size="13" font-weight="600">
+    <rect x="0" y="0" width="175" height="34" rx="6" fill="#111c21" stroke="#334155"/>
+    <text x="87" y="22" fill="#38bdf8" text-anchor="middle">⚡ RAG &amp; AI Agents</text>
+
+    <rect x="190" y="0" width="210" height="34" rx="6" fill="#111c21" stroke="#334155"/>
+    <text x="295" y="22" fill="#facc15" text-anchor="middle">🧠 QLoRA / GGUF / SLM</text>
+
+    <rect x="415" y="0" width="225" height="34" rx="6" fill="#111c21" stroke="#334155"/>
+    <text x="527" y="22" fill="#2dd4bf" text-anchor="middle">🚀 Astro • Svelte • FastAPI</text>
+
+    <rect x="655" y="0" width="215" height="34" rx="6" fill="#111c21" stroke="#334155"/>
+    <text x="762" y="22" fill="#a78bfa" text-anchor="middle">🛠️ Native CUDA / C# Tools</text>
+  </g>
+</svg>

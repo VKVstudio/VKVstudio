@@ -1,31 +1,56 @@
-### ⚡ Valerii Karpov — VKV Studio
+﻿<div align="center">
+  <a href="https://vkvstudio.com">
+    <img src="./hero-banner.svg" alt="Valerii Karpov — VKV Studio" width="100%" />
+  </a>
+  <br/><br/>
+  <p align="center">
+    <a href="https://vkvstudio.com"><img src="./btn-website.svg" alt="Website" height="40" /></a>&nbsp;&nbsp;
+    <a href="https://github.com/VKVstudio/VKV_Studio_pro"><img src="./btn-pro.svg" alt="VKV Studio Pro" height="40" /></a>&nbsp;&nbsp;
+    <a href="mailto:valerii@vkvstudio.com"><img src="./btn-email.svg" alt="Email" height="40" /></a>
+  </p>
+</div>
 
-**Applied LLM Systems • On-Device AI & Quantization • High-Performance Web Architecture**
+---
 
-<p align="left">
-  <a href="[https://vkvstudio.com](https://vkvstudio.com)"><img src="[https://img.shields.io/badge/WEBSITE-VKVSTUDIO.COM-111827?style=for-the-badge&logo=googlechrome&logoColor=white](https://img.shields.io/badge/WEBSITE-VKVSTUDIO.COM-111827?style=for-the-badge&logo=googlechrome&logoColor=white)" alt="vkvstudio.com"></a>
-  <a href="mailto:valerii@vkvstudio.com"><img src="[https://img.shields.io/badge/CONTACT-VALERII%40VKVSTUDIO.COM-0078D4?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/CONTACT-VALERII%40VKVSTUDIO.COM-0078D4?style=for-the-badge&logo=gmail&logoColor=white)" alt="Email"></a>
+### 🛠️ Core Tech & AI Stack
+
+<p align="center">
+  <a href="https://github.com/VKVstudio?tab=repositories">
+    <img src="https://skillicons.dev/icons?i=py,ts,js,cs,html,css,astro,svelte,nuxtjs,react,nodejs,fastapi,sqlite,linux,git,vscode&perline=8" alt="Tech Stack" />
+  </a>
 </p>
 
 ---
 
+### 🚀 Featured Systems & Open-Source Projects
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 AI & Local Inference Stack</h4>
-      <ul>
-        <li><b>Fine-Tuning & Quantization:</b> QLoRA, GGUF (<code>Q8_0</code>, <code>Q2_0</code>, <code>IQ3_S</code>), Small Language Models (SLM) & MoE routing</li>
-        <li><b>Applied RAG & Agents:</b> Vector search, strict context grounding, autonomous local pipelines</li>
-        <li><b>Native Tooling:</b> Zero-dependency Windows utilities, CUDA/VRAM management (<a href="[https://github.com/VKVstudio/StrataSmartToggle](https://github.com/VKVstudio/StrataSmartToggle)">StrataSmartToggle</a>)</li>
-      </ul>
+      <h3>🌐 <a href="https://github.com/VKVstudio/VKV_Studio_com">VKV_Studio_com</a></h3>
+      <p><b>Bilingual Engineering Portfolio & Applied LLM Hub</b><br/>
+      Production platform featuring working LLM tools and a self-hosted, fine-tuned Gemma assistant with strict RAG grounding, QLoRA adapters, and <code>Q8_0</code> GGUF inference on a no-gpu ARM box.</p>
+      <p><code>Astro 6</code> <code>Svelte 5</code> <code>FastAPI</code> <code>RAG</code> <code>GGUF</code> • <a href="https://vkvstudio.com"><b>Live Site ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h4>🚀 Web & Systems Engineering</h4>
-      <ul>
-        <li><b>Frontend & SSR:</b> Vanilla HTML/CSS/JS, Astro, Svelte, Nuxt, React</li>
-        <li><b>Backend & Infrastructure:</b> Node.js, FastAPI, Python, C# (.NET), SQLite</li>
-        <li><b>Focus:</b> Sub-second load times, clean architecture, zero-bloat production deployments</li>
-      </ul>
+      <h3>⚡ <a href="https://github.com/VKVstudio/StrataSmartToggle">StrataSmartToggle</a></h3>
+      <p><b>Zero-Dependency Windows 10/11 Taskbar LLM Controller</b><br/>
+      Lightweight native C# / WPF launcher & real-time CUDA VRAM monitor built for the <code>Niko1221/Strata</code> local MoE inference engine. Instant quant switching (<code>Q8_0</code> / <code>Q2_0</code> / <code>IQ3_S</code>).</p>
+      <p><code>C#</code> <code>WPF</code> <code>CUDA</code> <code>Local LLM</code> <code>VRAM Control</code> • <a href="https://github.com/VKVstudio/StrataSmartToggle"><b>Repository ↗</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📰 <a href="https://github.com/VKVstudio/VKV_Studio_pro">VKV_Studio_pro</a></h3>
+      <p><b>Action-Driven AI & Engineering Editorial Platform</b><br/>
+      Real-world benchmarks, architecture verification, and hands-on engineering tests across 11 industry sources with a unified sticky Reading Rail navigation system.</p>
+      <p><code>Nuxt</code> <code>Python</code> <code>AI Benchmarks</code> • <a href="https://github.com/VKVstudio/VKV_Studio_pro"><b>Repository ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔥 <a href="https://github.com/VKVstudio/edge0-cuda">edge0-cuda</a> & <a href="https://github.com/VKVstudio/axioma-preview">axioma-preview</a></h3>
+      <p><b>On-Device AI Inference & High-Speed Web Architectures</b><br/>
+      Low-level GPU/CUDA optimization experiments for local models alongside ultra-fast, zero-bloat web interfaces engineered for sub-second response times.</p>
+      <p><code>CUDA</code> <code>On-Device AI</code> <code>Vanilla JS</code> • <a href="https://github.com/VKVstudio?tab=repositories"><b>All Repositories ↗</b></a></p>
     </td>
   </tr>
 </table>
