@@ -1,0 +1,94 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%">
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a1f"/>
+      <stop offset="100%" stop-color="#0c1014"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="230" rx="12" fill="#070a0d" stroke="#182228" stroke-width="1"/>
+
+  <!-- ВЕРХНИЙ РЯД: 6 карточек (Python, TypeScript, Astro, Svelte, FastAPI, Gemma 4) -->
+  <g transform="translate(24, 18)">
+    <g transform="translate(0, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">PY // 3.12+</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">Python</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Backend</text>
+    </g>
+    <g transform="translate(194, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">TS // STRICT</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">TypeScript</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Language</text>
+    </g>
+    <g transform="translate(388, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#fb923c" text-anchor="middle">ASTRO // 6</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">Astro</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Framework</text>
+    </g>
+    <g transform="translate(582, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#f87171" text-anchor="middle">SVELTE // 5</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">Svelte</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">UI</text>
+    </g>
+    <g transform="translate(776, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#2dd4bf" text-anchor="middle">FASTAPI // ASYNC</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">FastAPI</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">API Server</text>
+    </g>
+    <g transform="translate(970, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#34d399" stroke-opacity="0.7"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#6ee7b7" text-anchor="middle">GEMMA 4 // Q8_0</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Gemma 4</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#34d399" text-anchor="middle">LLM</text>
+    </g>
+  </g>
+
+  <!-- НИЖНИЙ РЯД: 5 карточек по центру (HuggingFace, ONNX, Three.js, GSAP, GCP) -->
+  <g transform="translate(121, 122)">
+    <g transform="translate(0, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#facc15" text-anchor="middle">HF // TRANSFORMERS</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">HuggingFace</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">ML Platform</text>
+    </g>
+    <g transform="translate(194, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#93c5fd" text-anchor="middle">ONNX // RUNTIME</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">ONNX</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">ML Runtime</text>
+    </g>
+    <g transform="translate(388, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#e2e8f0" text-anchor="middle">THREE // WEBGL</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">Three.js</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">3D / WebGL</text>
+    </g>
+    <g transform="translate(582, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#4ade80" text-anchor="middle">GSAP // MOTION</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">GSAP</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Animation</text>
+    </g>
+    <g transform="translate(776, 0)">
+      <rect width="180" height="90" rx="10" fill="url(#cBg)" stroke="#233038"/>
+      <text x="90" y="36" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#60a5fa" text-anchor="middle">GCP // VERTEX</text>
+      <line x1="20" y1="50" x2="160" y2="50" stroke="#1c262b"/>
+      <text x="90" y="68" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#f8fafc" text-anchor="middle">GCP</text>
+      <text x="90" y="82" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Cloud</text>
+    </g>
+  </g>
+</svg>

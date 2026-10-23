@@ -1,60 +1,100 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#071114"/>
-      <stop offset="50%" stop-color="#0d2226"/>
-      <stop offset="100%" stop-color="#050b0e"/>
+      <stop offset="0%" stop-color="#070a0d"/>
+      <stop offset="50%" stop-color="#0b1114"/>
+      <stop offset="100%" stop-color="#06080a"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d4af37"/>
-      <stop offset="50%" stop-color="#f3e5ab"/>
-      <stop offset="100%" stop-color="#aa8220"/>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141c20"/>
+      <stop offset="100%" stop-color="#0b0f12"/>
     </linearGradient>
-    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2dd4bf"/>
-      <stop offset="100%" stop-color="#0ea5e9"/>
+    <linearGradient id="activeCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11261f"/>
+      <stop offset="100%" stop-color="#091310"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a40" stroke-width="0.6" stroke-opacity="0.35"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#162226" stroke-width="0.7" stroke-opacity="0.55"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="260" rx="14" fill="url(#bg)" stroke="#234e52" stroke-width="2"/>
-  <rect width="1200" height="260" rx="14" fill="url(#grid)"/>
+  <rect width="1200" height="280" rx="14" fill="url(#bg)" stroke="#1e2d33" stroke-width="1.5"/>
+  <rect width="1200" height="280" rx="14" fill="url(#grid)"/>
 
-  <!-- Декоративное свечение и геометрия справа -->
-  <circle cx="1050" cy="130" r="190" fill="#14b8a6" fill-opacity="0.06"/>
-  <circle cx="1050" cy="130" r="120" fill="none" stroke="url(#gold)" stroke-width="1" stroke-opacity="0.3"/>
-  <polygon points="990,175 1050,65 1110,175" fill="none" stroke="url(#teal)" stroke-width="3" stroke-opacity="0.35"/>
-  <polygon points="940,75 995,180 1050,75" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-opacity="0.4"/>
-  <polygon points="1050,75 1105,180 1160,75" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-opacity="0.4"/>
+  <!-- ЛЕВАЯ ЧАСТЬ: Типографика и позиционирование -->
+  <rect x="44" y="34" width="290" height="26" rx="13" fill="#0d1f1a" stroke="#34d399" stroke-width="1" stroke-opacity="0.6"/>
+  <circle cx="60" cy="47" r="4" fill="#34d399"/>
+  <text x="74" y="51" font-family="Segoe UI, Inter, sans-serif" font-size="11" font-weight="700" fill="#6ee7b7" letter-spacing="1.4">VKV STUDIO • ENGINEERING HUB</text>
 
-  <!-- Верхний статус-бейдж -->
-  <rect x="55" y="36" width="335" height="28" rx="14" fill="#0f292e" stroke="#2dd4bf" stroke-width="1"/>
-  <circle cx="73" cy="50" r="4.5" fill="#10b981"/>
-  <text x="88" y="55" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="700" fill="#5eead4" letter-spacing="1.5">APPLIED AI &amp; HIGH-PERFORMANCE WEB</text>
+  <text x="44" y="108" font-family="Segoe UI, Inter, sans-serif" font-size="42" font-weight="800" fill="#f8fafc" letter-spacing="0.5">VALERII KARPOV</text>
+  <text x="44" y="142" font-family="Segoe UI, Inter, sans-serif" font-size="16" font-weight="600" fill="#34d399" letter-spacing="0.4">Applied LLM Systems • RAG &amp; Fine-Tuning • High-Performance Web</text>
 
-  <!-- Заголовок -->
-  <text x="55" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="0.5">VALERII KARPOV</text>
-  <text x="455" y="118" font-family="Segoe UI, Ubuntu, sans-serif" font-size="46" font-weight="300" fill="url(#gold)">// VKV STUDIO</text>
-
-  <!-- Подзаголовок -->
-  <text x="55" y="158" font-family="Segoe UI, Ubuntu, sans-serif" font-size="19" font-weight="400" fill="#94a3b8">
-    Building autonomous LLM systems, RAG architectures, GGUF/QLoRA quantization &amp; zero-bloat web platforms
+  <text x="44" y="176" font-family="Segoe UI, Inter, sans-serif" font-size="13.5" fill="#94a3b8">
+    Self-hosted Gemma 4 inference (QLoRA / Q8_0 GGUF), ONNX runtimes, local AI tooling
+  </text>
+  <text x="44" y="196" font-family="Segoe UI, Inter, sans-serif" font-size="13.5" fill="#94a3b8">
+    &amp; sub-second web architectures verified by independent security &amp; agentic audits.
   </text>
 
-  <!-- Нижние плашки фокуса -->
-  <g transform="translate(55, 188)" font-family="Consolas, monospace" font-size="13" font-weight="600">
-    <rect x="0" y="0" width="175" height="34" rx="6" fill="#111c21" stroke="#334155"/>
-    <text x="87" y="22" fill="#38bdf8" text-anchor="middle">⚡ RAG &amp; AI Agents</text>
+  <!-- Нижние теги -->
+  <g transform="translate(44, 218)" font-family="Consolas, monospace" font-size="12" font-weight="600">
+    <rect x="0" y="0" width="132" height="30" rx="6" fill="#0f161a" stroke="#26353d"/>
+    <text x="66" y="19" fill="#e2e8f0" text-anchor="middle">Gemma 4 • RAG</text>
 
-    <rect x="190" y="0" width="210" height="34" rx="6" fill="#111c21" stroke="#334155"/>
-    <text x="295" y="22" fill="#facc15" text-anchor="middle">🧠 QLoRA / GGUF / SLM</text>
+    <rect x="142" y="0" width="138" height="30" rx="6" fill="#0f161a" stroke="#26353d"/>
+    <text x="211" y="19" fill="#e2e8f0" text-anchor="middle">Astro 6 • Svelte 5</text>
 
-    <rect x="415" y="0" width="225" height="34" rx="6" fill="#111c21" stroke="#334155"/>
-    <text x="527" y="22" fill="#2dd4bf" text-anchor="middle">🚀 Astro • Svelte • FastAPI</text>
+    <rect x="290" y="0" width="142" height="30" rx="6" fill="#0f161a" stroke="#26353d"/>
+    <text x="361" y="19" fill="#e2e8f0" text-anchor="middle">FastAPI • Python</text>
 
-    <rect x="655" y="0" width="215" height="34" rx="6" fill="#111c21" stroke="#334155"/>
-    <text x="762" y="22" fill="#a78bfa" text-anchor="middle">🛠️ Native CUDA / C# Tools</text>
+    <rect x="442" y="0" width="134" height="30" rx="6" fill="#0f161a" stroke="#26353d"/>
+    <text x="509" y="19" fill="#e2e8f0" text-anchor="middle">ONNX • Three.js</text>
+  </g>
+
+  <!-- ПРАВАЯ ЧАСТЬ: 4 карточки реальных метрик с vkvstudio.com -->
+  <g transform="translate(615, 28)">
+    <!-- Card 1: TLS -->
+    <rect x="0" y="0" width="130" height="224" rx="10" fill="url(#cardBg)" stroke="#223036" stroke-width="1"/>
+    <text x="12" y="22" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="700" fill="#94a3b8" letter-spacing="1">TLS CONFIG</text>
+    <rect x="12" y="34" width="106" height="68" rx="6" fill="#0d1417" stroke="#1c292e"/>
+    <text x="65" y="80" font-family="Segoe UI, sans-serif" font-size="34" font-weight="800" fill="#34d399" text-anchor="middle">A+</text>
+    <text x="12" y="124" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#f1f5f9">Qualys SSL Labs</text>
+    <text x="12" y="142" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#34d399">A+ TLS grade</text>
+    <text x="12" y="164" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">Highest HTTPS</text>
+    <text x="12" y="177" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">encryption grade.</text>
+    <text x="12" y="208" font-family="Consolas, monospace" font-size="8.5" fill="#34d399">VERIFIED ↗</text>
+
+    <!-- Card 2: HTTP HEADERS -->
+    <rect x="142" y="0" width="130" height="224" rx="10" fill="url(#cardBg)" stroke="#223036" stroke-width="1"/>
+    <text x="154" y="22" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="700" fill="#94a3b8" letter-spacing="1">HTTP HEADERS</text>
+    <rect x="154" y="34" width="106" height="68" rx="6" fill="#0d1417" stroke="#1c292e"/>
+    <text x="207" y="80" font-family="Segoe UI, sans-serif" font-size="34" font-weight="800" fill="#34d399" text-anchor="middle">A+</text>
+    <text x="154" y="124" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#f1f5f9">SecurityHeaders</text>
+    <text x="154" y="142" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#34d399">A+ Header grade</text>
+    <text x="154" y="164" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">Strict browser rules</text>
+    <text x="154" y="177" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">&amp; click protection.</text>
+    <text x="154" y="208" font-family="Consolas, monospace" font-size="8.5" fill="#34d399">VERIFIED ↗</text>
+
+    <!-- Card 3: MOZILLA -->
+    <rect x="284" y="0" width="130" height="224" rx="10" fill="url(#cardBg)" stroke="#223036" stroke-width="1"/>
+    <text x="296" y="22" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="700" fill="#94a3b8" letter-spacing="1">OBSERVATORY</text>
+    <rect x="296" y="34" width="106" height="68" rx="6" fill="#0d1417" stroke="#1c292e"/>
+    <text x="349" y="80" font-family="Segoe UI, sans-serif" font-size="34" font-weight="800" fill="#34d399" text-anchor="middle">A+</text>
+    <text x="296" y="124" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#f1f5f9">Mozilla Audit</text>
+    <text x="296" y="142" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#34d399">12/12 Passed</text>
+    <text x="296" y="164" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">Passed all 12</text>
+    <text x="296" y="177" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#64748b">security checks.</text>
+    <text x="296" y="208" font-family="Consolas, monospace" font-size="8.5" fill="#34d399">VERIFIED ↗</text>
+
+    <!-- Card 4: AGENTIC 6/6 -->
+    <rect x="426" y="0" width="134" height="224" rx="10" fill="url(#activeCard)" stroke="#34d399" stroke-width="1.2"/>
+    <text x="438" y="22" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="700" fill="#a7f3d0" letter-spacing="1">WEBSITE QUALITY</text>
+    <rect x="438" y="34" width="110" height="68" rx="6" fill="#091914" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="493" y="80" font-family="Segoe UI, sans-serif" font-size="34" font-weight="800" fill="#6ee7b7" text-anchor="middle">6/6</text>
+    <text x="438" y="124" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Agentic Browsing</text>
+    <text x="438" y="142" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#34d399">100 PageSpeed</text>
+    <text x="438" y="164" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#94a3b8">All 6 agentic checks</text>
+    <text x="438" y="177" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#94a3b8">+ 100 in all desktop.</text>
+    <text x="438" y="208" font-family="Consolas, monospace" font-size="8.5" fill="#6ee7b7">SEE EVIDENCE ↗</text>
   </g>
 </svg>
